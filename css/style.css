@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0px solid blue;
+}
+
+body {
+    background-color: white;
+    font-family: 'Akshar', sans-serif;
+    font-size: 62.5%;
+    height: 75vh;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-inline: 33.3%;
+    padding-top: 2rem;
+}
+
+.item {
+    width: 30%;
+    padding-bottom: 30%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.square {
+    width: 32%;
+    padding-bottom: 32%;
+    margin-bottom: 2%;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+}
+
+h1 {
+    height: 20vh;
+    color: rgb(0, 0, 0);
+    background-color: #232323;
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+p {
+    height: 30vh;
+    color: white;
+    background-color: #232323;
+    font-size: 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+#colorDisplay {
+    display: block;
+    font-size: 1em;
+}
+
+#stripe {
+    background: #b2d136;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+#message {
+    font-family: 'Akshar', sans-serif;
+    /* text-transform: uppercase; */
+    color: #232323;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 20%;
+}
+
+button {
+    outline: none;
+    color: #232323;
+    font-family: 'Akshar', sans-serif;
+    /* text-transform: uppercase; */
+    font-size: 1.5rem;
+    background-color: #a3c51b;
+    height: 100%;
+    letter-spacing: 1px;
+    padding: 0.2rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #232323;
+    color: d1d2cd;
+}
+
+.selected {
+    background-color: #232323;
+    color: #a3c51b;
+}
+
+.square {
+    border-radius: 20%;
+}
+
+#score {
+    color: black;
+    /* text-transform: uppercase; */
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="loadPoints()">
+    <h1>Adivina el color <span id="colorDisplay">RGB</span></h1>
+    <div id="stripe">
+        <a href="howtoplay.html"><button id="guide">¿Como se juega?</button></a>
+        <button id="reset">Nueva partida</button>
+        <span id="message"></span>
+        <button class="mode">Facil</button>
+        <button class="mode selected">Normal</button>
+        <button class="mode">Dificil</button>
+    </div>
+    <div id="score">
+        Puntos:
+        <span id="scoreDisplay"></span>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <script type="text/javascript" src="js/final.js"></script>
+</body>
+
+</html>
